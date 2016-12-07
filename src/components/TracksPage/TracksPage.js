@@ -6,7 +6,7 @@ export const TracksPage = () => (
   <div>
     <div className={classes.container}>
       <div className={classes.tracks}>
-        <h1 className={classes.tracksHeader}>TRACKS</h1>
+        <h1 className={classes.tracksHeader}>TOPICS</h1>
         <p className={classes.tracksText}>
           HackDuke emphasizes its commitment to social good through four
           unique project tracks. Tracks enable members to collaborate while
