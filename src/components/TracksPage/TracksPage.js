@@ -8,10 +8,11 @@ export const TracksPage = () => (
       <div className={classes.tracks}>
         <h1 className={classes.tracksHeader}>TOPICS</h1>
         <p className={classes.tracksText}>
-          HackDuke emphasizes its commitment to social good through four
-          unique project tracks. Tracks enable members to collaborate while
-          providing an alleyway to partnership with peers, local organizations,
-          nonprofits and universities to continue working towards the cause.
+          Blueprint: People+Wildlife has four tracks designed to 
+          explore the areas of nature and conservation that directly 
+          affect humans around the world. All of the tracks will have a 
+          leading expert at the conference that will help extend ideas 
+          beyond the event.
         </p>
         <TracksGrid />
       </div>

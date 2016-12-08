@@ -53,10 +53,10 @@ export const FAQ = () => (
             beforeText={'To help with logistics day of, sign up to '}
             linkText={'volunteer'}
             link={'https://hackduke.typeform.com/to/e7BfyC?route_receive_volunteer=xxxxx'}
-            middleText={'. If you\'re looking to'}
+            middleText={'. If you\'re looking to '}
             linkText0={'mentor or speak'}
             link0={'https://hackduke.typeform.com/to/Q8EGmW?route_receive_mentor=xxxxx'}
-            afterText={'to students about your work \
+            afterText={' to students about your work \
             in this area, let us know!'} />
 
           <FAQSection title={'I\'m not an engineer/computer science expert...'}
