@@ -26,7 +26,7 @@ export const TracksGrid = () => (
                     that runs side-by-side with human trafficking, \
                     the illegal weapons trade, and drugs. Technical \
                     devices and new techniques need to be created to \
-                    stop the killing\/capture of animals, track the trade, \
+                    stop the killing/capture of animals, track the trade, \
                     and stop the sale.  '} />
           </div>
         </Col>
@@ -38,7 +38,7 @@ export const TracksGrid = () => (
                     Communities all over the world desperately need technical solutions \
                     to stop these harmful, and often deadly interactions. Simple \
                     technology is lacking in areas such as dangerous animal detection, \
-                    by\-catch prevention, pollution control, and habitat restoration.'} />
+                    by-catch prevention, pollution control, and habitat restoration.'} />
           </div>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'CITIZEN SCIENCE AND RESOURCE MANAGAMENT'}
