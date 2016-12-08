@@ -11,39 +11,47 @@ export const TracksGrid = () => (
           <div className={classes.leftTracksBox}>
             <TracksBox track={'INVASIVE SPECIES'}
               link={'http://hackduke.tumblr.com/tagged/inequality'}
-              text={'The Inequality track targets problems regarding \
-                    both social and economic inequality. Whether it is \
-                    creating solutions to bridge the gap between the affluent \
-                    and the poor, or finding ways to eliminate disparities in \
-                    gender or race, this track is built on the principle that \
-                    everyone should have the capacity to reach their full potential.'} />
+              text={'Introduced species can wreak havoc on vital ecosystems \
+                    that we rely on every day. Once established they are hard \
+                    to remove using current techniques. We need to find new \
+                    technology and techniques that can stop the billions of \
+                    dollars of damage these species cause.'} />
           </div>
           <div className={classes.leftTracksBox}>
             <TracksBox track={'ILLEGAL WILDLIFE TRAFFICKING'}
               link={'http://hackduke.tumblr.com/tagged/health-&-wellness'}
-              text={'The Healthcare track allows hackers to work with various \
-                    kinds of health related data, as well as connect with mentors \
-                    from the intersection of health and technology. More than ever, \
-                    technology today is in a prime position to improve the quality, \
-                    efficiency, and accessibility of health care. '} />
+              text={'The illegal wildlife trade has decimated Rhino, Elephant, \
+                    Big Cats, and many other animal populations; \
+                    however, it goes beyond animals. This industry \
+                    that runs side-by-side with human trafficking, \
+                    the illegal weapons trade, and drugs. Technical \
+                    devices and new techniques need to be created to \
+                    stop the killing\/capture of animals, track the trade, \
+                    and stop the sale.  '} />
           </div>
         </Col>
         <Col sm={6} md={6} className={classes.rightColumn}>
           <div className={classes.rightTracksBox}>
-            <TracksBox track={'HUMAN-WILDLIFE INTERACTION'}
+            <TracksBox track={'HARMFUL HUMAN-WILDLIFE INTERACTION'}
               link={'http://hackduke.tumblr.com/tagged/energy-&-environment'}
-              text={'The Energy and Environment track encompasses a technical perspective to \
-                    deal with large issues impacting energy use, allocation and environmental \
-                    regulations. This track has many applications, including machine learning \
-                    for resource extraction, the use of green energy and enforcing environmental policy.'} />
+              text={'The most open category, Humans harm wildlife, wildlife harm humans. \
+                    Communities all over the world desperately need technical solutions \
+                    to stop these harmful, and often deadly interactions. Simple \
+                    technology is lacking in areas such as dangerous animal detection, \
+                    by\-catch prevention, pollution control, and habitat restoration.'} />
           </div>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'CITIZEN SCIENCE AND RESOURCE MANAGAMENT'}
               link={'http://hackduke.tumblr.com/tagged/education'}
-              text={'The Education track teams hackers with educators, reaching out to \
-                    all levels of subjects and skills. In addition to Education events \
-                    sponsored by HackDuke, projects aim to increase visibility of \
-                    technology and to introduce basic skills to the public.'} />
+              text={'This track is about giving power to the people. \
+                    Every person on the planet has interactions with nature, \
+                    but very few contribute to our understanding of our \
+                    natural world. Can we make it easy for people to add \
+                    to the science of the world through app development \
+                    and emerging technologies like drones? Is it then \
+                    possible to turn that information into useful data \
+                    that can help us preserve our precious resources and way of \
+                    life?'} />
           </div>
         </Col>
       </Row>

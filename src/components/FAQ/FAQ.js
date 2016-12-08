@@ -15,15 +15,18 @@ export const FAQ = () => (
       <Row style={{'paddingTop': '30px'}}>
         <Col md={4}>
           <FAQSection title={'Prizes?'}
-            text={'Yes, but there\'s a little twist! The grand prizes  \
-                  are donations under your name to charities and  \
-                  causes! There will be grand prize winners for  \
-                  each track, novice track and many other  \
-                  company sponsored API prizes as well.'} />
+            text={'We will have a grand cash prize for the best Blueprint \+ prizes \
+                  for the winning Blueprint from each topic. Other merchandise from \
+                  sponsors will be at the events.'} />
+          <FAQSection title={'What is a Blueprint?'}
+            text={'A Blueprint is anything you want it to be (app mock-up, \
+                  CAD model, report, video) – as long as you can explain to the judges \
+                  how it could be developed into a radically new solution to one of \
+                  the four topics.'} />
           <FAQSection title={'When? Where?'}
-            text={'HackDuke starts Saturday, November 19th at 10:00 AM EST and ends on   \
-                  Sunday, November 20th at 5:30 PM EST. It is hosted on Duke   \
-                  University\'s West Campus, 305 Teer Engineering Building, Durham, NC 27708.'} />
+                  text={'January 27th\-28th, Duke\’s West Campus. The first evening \
+                  will be held at Penn Pavillion, and the next day will be held at \
+                  Environmental Hall.'} />
           <FAQSection title={'Who can participate?'}
             text={'You can participate as long as you\'re a student   \
                   (undergraduate or graduate)! If you\'re a new   \
@@ -31,36 +34,36 @@ export const FAQ = () => (
         </Col>
         <Col md={4}>
           <FAQSection title={'Who can I work with?'}
-            text={'Anyone! Get to know your fellow programmers   \
-                  better from your own and other schools!  \
-                  The only request that we have is that you make a   \
-                  new friend by talking to each other, our mentors \
-                  and our experts!'} />
+            text={'Anyone! (as long as the group is between 3 and 7). \
+                  We will send a link out during the start of the first \
+                  night of speeches so groups can be formed and organized \
+                  after hearing from the experts. If you don\’t have a group, \
+                  don\’t worry! We will make sure to pair you with some cool people!'} />
           <FAQSection title={'Anything I should remember to bring?'}
-            text={'Bring your own ethernet cables (or you can just use \
-                  WiFi) and bring any Nerf gun arsenal you have!'} />
-          <FAQSection title={'What can I make?'}
-            text={'We welcome all software and hardware hacks   \
-                   that align to our tracks for impact. We will also  \
-                   have lab space for hardware hackers.'} />
+            text={'Your brain. Your radical ideas and perhaps a laptop, writing device.'} />
+          <FAQSection title={'I don\'t go to Duke, can I still come?'}
+            text={'YES, and invite your friends too! We want to spread \
+            the conservation technology bug far and wide. '} />
+          <FAQSection title={'I don\’t know anything about environmental science or conservation…'}
+            text={'Good… You haven\’t been corrupted by the knowledge of \
+            the status quo. New ideas are what we are looking for.'} />
         </Col>
         <Col md={4}>
           <FAQSection title={'I want to volunteer or mentor! How can I help?'}
             beforeText={'To help with logistics day of, sign up to '}
             linkText={'volunteer'}
             link={'https://hackduke.typeform.com/to/e7BfyC?route_receive_volunteer=xxxxx'}
-            middleText={'. If you\'re looking to mentor hackers with tech or track knowledge, come help out as a '}
-            linkText0={'mentor'}
+            middleText={'. If you\'re looking to'}
+            linkText0={'mentor or speak'}
             link0={'https://hackduke.typeform.com/to/Q8EGmW?route_receive_mentor=xxxxx'}
-            afterText={'. Both mentors and volunteers will get a special HackDuke T-shirt!'} />
+            afterText={'to students about your work \
+            in this area, let us know!'} />
 
-          <FAQSection title={'Travel?'}
-            text={'Anyone from across the nation is welcome to  \
-                   come! We will be providing buses for certain \
-                   universities. Travel reimbursements will be provided \
-                   in case by case scenarios.'} />
+          <FAQSection title={'I\'m not an engineer\/computer science expert...'}
+            text={'This event is about crazy ideas that might just work – \
+            anyone can come up with those when surrounded by some awesome people.'} />
           <FAQSection title={'How can I become a sponsor?'}
-            text={'Email us at sponsorship@hackduke.org.'} />
+            text={'Email us at sponsorship@dukeblueprint.com.'} />
         </Col>
       </Row>
     </div>

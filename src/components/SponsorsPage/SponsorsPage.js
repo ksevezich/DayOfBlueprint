@@ -100,7 +100,7 @@ class SponsorsPage extends React.Component {
           <div>
             <h1 className={classes.header}>{this.state.title}</h1>
             <br />
-            <a className={classes.link} href={'mailto:sponsorship@hackduke.org'}>
+            <a className={classes.link} href={'mailto:sponsorship@dukeblueprint.com'}>
               <button className={classes.homeButton}> {this.state.sponsorButtonText} </button>
             </a>
             <div className={classes.section}>

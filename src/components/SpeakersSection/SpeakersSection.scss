@@ -19,6 +19,13 @@
   font-size: 1em;
 }
 
+.sectionImage {
+  display: block;
+  margin: auto;
+  height: 10vh;
+  width: 10vh;
+}
+
 @media (min-width: $tabletBreakpoint) {
 
   .sectionHeader {

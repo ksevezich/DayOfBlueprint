@@ -6,23 +6,20 @@ export const About = () => (
   <div>
     <div className={classes.about} >
       <div className={'container text-center'}>
-        <h1 className={classes.header}> BLUEPRINT IS ABOUT </h1>
-        <AboutSection title={'COLLABORATION NOT COMPETITION.'}
-          text={'HackDuke is not just about building meaningful projects. \
-                It\'s also an open forum to discuss, share and bring to life ideas \
-                that aim to make a positive impact on social issues. Look forward \
-                to working with experts from non-profits and coding alongside \
-                mentors from tech companies!'} />
-        <AboutSection title={'EXPLORING THE INTERSECTION BETWEEN TECH & SOCIAL GOOD.'}
-          text={'The core principle behind hacking for social good is collaboration, \
-                and HackDuke\'s project tracks provide an avenue to collaborate with each \
-                other, with initiatives at their university and with community organizations.'} />
-        <AboutSection title={'GIVING BACK.'}
-          text={'HackDuke encourages students to venture beyond the classroom. \
-                Learn how your skills can be used to make a difference in other \
-                people\'s lives. Tracks enable members to collaborate while providing \
-                an alleyway to partnership with peers, local organizations, nonprofits \
-                and universities to continue working towards the cause.'} />
+        <h1 className={classes.header}> BLUEPRINT: <br/>PEOPLE + WILDLIFE <br/>IS ABOUT </h1>
+        <AboutSection title={'\“BLUEPRINT\” PLANS → IMPACTFUL SOLUTIONS.'}
+          text={'At this event we want students to come up with Blueprints for  \
+          projects\/technology\/apps that are so crazy that they might just work. \
+          On-campus student organizations with the skills to make the ideas a reality \
+          will then develop and deploy them under the mentorship of leading experts.'} />
+        <AboutSection title={'#TECH4GOOD.'}
+          text={'Mainstream technologies have widely dismissed conservation as a \
+          viable area of development due to the lack of money in the area. \
+          As college students, we can fill this void and create impactful tech for good.'} />
+        <AboutSection title={'PEOPLE\+WILDLIFE.'}
+          text={'Conservation is more than saving cute wildlife; it impacts people \
+          more than almost anything else, as a precursor to food and water security, \
+          disease control and overall happiness.'} />
       </div>
     </div>
   </div>
