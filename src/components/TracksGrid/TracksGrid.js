@@ -2,6 +2,7 @@ import React from 'react'
 import TracksBox from 'components/TracksBox'
 import {Grid, Row, Col} from 'react-bootstrap'
 import classes from './TracksGrid.scss'
+import xlabs from 'static/sponsors/conservationxlabs.png'
 
 export const TracksGrid = () => (
   <div>
@@ -15,7 +16,8 @@ export const TracksGrid = () => (
                     that we rely on every day. Once established they are hard \
                     to remove using current techniques. We need to find new \
                     technology and techniques that can stop the billions of \
-                    dollars of damage these species cause.'} />
+                    dollars of damage these species cause.'}
+              sponsorImagePath={xlabs} />
           </div>
           <div className={classes.leftTracksBox}>
             <TracksBox track={'ILLEGAL WILDLIFE TRAFFICKING'}
@@ -27,7 +29,8 @@ export const TracksGrid = () => (
                     the illegal weapons trade, and drugs. Technical \
                     devices and new techniques need to be created to \
                     stop the killing/capture of animals, track the trade, \
-                    and stop the sale.  '} />
+                    and stop the sale.  '}
+              sponsorImagePath={xlabs} />
           </div>
         </Col>
         <Col sm={6} md={6} className={classes.rightColumn}>
@@ -38,7 +41,8 @@ export const TracksGrid = () => (
                     Communities all over the world desperately need technical solutions \
                     to stop these harmful, and often deadly interactions. Simple \
                     technology is lacking in areas such as dangerous animal detection, \
-                    by-catch prevention, pollution control, and habitat restoration.'} />
+                    by-catch prevention, pollution control, and habitat restoration.'}
+              sponsorImagePath={xlabs} />
           </div>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'CITIZEN SCIENCE AND RESOURCE MANAGAMENT'}
@@ -51,7 +55,8 @@ export const TracksGrid = () => (
                     and emerging technologies like drones? Is it then \
                     possible to turn that information into useful data \
                     that can help us preserve our precious resources and way of \
-                    life?'} />
+                    life?'}
+              sponsorImagePath={xlabs} />
           </div>
         </Col>
       </Row>

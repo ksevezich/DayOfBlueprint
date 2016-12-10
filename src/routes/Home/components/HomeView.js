@@ -7,6 +7,7 @@ import About from 'components/About'
 import Speakers from 'components/Speakers'
 import FAQ from 'components/FAQ'
 import SponsorsPage from 'components/SponsorsPage'
+import StudentGroupsPage from 'components/StudentGroupsPage'
 import Social from 'components/Social'
 
 export const HomeView = () => (
@@ -16,12 +17,13 @@ export const HomeView = () => (
     <About />
     <Scroll.Element name='tracksScrollPoint'></Scroll.Element>
     <TracksPage />
-    <Scroll.Element name='speakersScollPoint'></Scroll.Element>
+    <Scroll.Element name='speakersScrollPoint'></Scroll.Element>
     <Speakers />
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
     <FAQ />
     <Scroll.Element name='sponsorsScrollPoint'></Scroll.Element>
     <SponsorsPage />
+    <StudentGroupsPage />
     <Social />
   </div>
 )

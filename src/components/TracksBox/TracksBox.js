@@ -7,10 +7,12 @@ export const TracksBox = (props) => (
       <p>{props.track}</p>
     </div>
     <div className={classes.paragraph}>
-      <p>{props.text}</p>
-      <a href={props.link} className={classes.link}>
-        <button className={classes.moreButton}> Learn More </button>
-      </a>
+      <p>{props.text} <br /> <br />
+        {'This topic sponsored by:'}
+        <img className={classes.sponsorImage} src={props.sponsorImagePath} />
+        <a href={props.link} className={classes.link}>
+          <button className={classes.moreButton}> Learn More </button>
+        </a> </p>
       <div />
     </div>
   </div>
@@ -19,7 +21,8 @@ export const TracksBox = (props) => (
 TracksBox.propTypes = {
   track: React.PropTypes.string.isRequired,
   text: React.PropTypes.string.isRequired,
-  link: React.PropTypes.string.isRequired
+  link: React.PropTypes.string.isRequired,
+  sponsorImagePath: React.PropTypes.string.isRequired
 }
 
 export default TracksBox

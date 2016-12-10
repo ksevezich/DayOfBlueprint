@@ -14,7 +14,7 @@ export const Speakers = () => (
                 that aim to make a positive impact on social issues. Look forward \
                 to working with experts from non-profits and coding alongside \
                 mentors from tech companies!'}
-          imagePath={'static/sponsors/dsg.png'} />
+          imagePath={dsg} />
         <SpeakersSection title={'Lucas Joppa'}
           text={'The core principle behind hacking for social good is collaboration, \
                 and HackDuke\'s project tracks provide an avenue to collaborate with each \

@@ -1,31 +1,10 @@
 import React from 'react'
-import classes from './SponsorsPage.scss'
+import classes from './StudentGroupsPage.scss'
 import SponsorsItem from 'components/SponsorsItem'
 import { Row, Col } from 'react-bootstrap'
-// import lifelock from 'static/sponsors/lifelock.png'
-// import google from 'static/sponsors/google.png'
-// import coinbase from 'static/sponsors/coinbase.png'
-// import esri from 'static/sponsors/esri.png'
-// import zoho from 'static/sponsors/zoho.png'
-// import fb from 'static/sponsors/fb.png'
-// import microsoft from 'static/sponsors/microsoft.png'
-// import optum from 'static/sponsors/optum.png'
-// import appian from 'static/sponsors/appian.png'
-import pratt from 'static/sponsors/pratt.png'
 
-// import twitter from 'static/sponsors/twitter.png'
-// import cs from 'static/sponsors/cs.png'
-// import qualtrics from 'static/sponsors/qualtrics.png'
-// import colab from 'static/sponsors/colab.png'
-// import cerner from 'static/sponsors/cerner.png'
-// import particle from 'static/sponsors/particle.png'
-// import stickermule from 'static/sponsors/stickermule.png'
-// import dps from 'static/sponsors/dps.png'
-import dsg from 'static/sponsors/dsg.png'
-import dtci from 'static/sponsors/nicholas-school-environment.png'
-import nse from 'static/sponsors/nsoe.vertical.pms287.tag_.png'
-import dukeie from 'static/sponsors/DukeIEtemp.png'
-import xlabs from 'static/sponsors/conservationxlabs.png'
+import dcs from 'static/sponsors/DCS.png'
+import dida from 'static/sponsors/dida.png'
 // import acm from 'static/sponsors/acm.jpg'
 // import consensys from 'static/sponsors/consensys.png'
 
@@ -34,16 +13,12 @@ class SponsorsPage extends React.Component {
   constructor () {
     super()
     this.state = {
-      sponsorsUrls: ['https://nicholas.duke.edu/', 'http://www.dukestudentgovernment.com',
-        'http://pratt.duke.edu', 'https://nicholas.duke.edu', 'https://entrepreneurship.duke.edu',
-        'http://conservationxlabs.com/home'],
+      sponsorsUrls: ['https://sites.duke.edu/conservationsociety/',
+        'https://studentaffairs.duke.edu/ucae/programs/dida'],
       windowWidth: window.innerWidth,
-      imageUrls: [dtci, dsg, pratt, nse, dukeie, xlabs],
-      sizes: [3, 3, 3, 2, 2, 2],
-      title: 'SPONSORS',
-      aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
-                  'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-      sponsorButtonText: 'Sponsor Us'
+      imageUrls: [dcs, dida],
+      sizes: [3, 3],
+      title: 'STUDENT GROUP PARTNERS'
     }
     this.handleResize = this.handleResize.bind(this)
   }
@@ -102,9 +77,6 @@ class SponsorsPage extends React.Component {
           <div>
             <h1 className={classes.header}>{this.state.title}</h1>
             <br />
-            <a className={classes.link} href={'mailto:sponsorship@dukeblueprint.com'}>
-              <button className={classes.homeButton}> {this.state.sponsorButtonText} </button>
-            </a>
             <div className={classes.section}>
               <div className={classes.logobox}>
                 <Row>
