@@ -15,17 +15,15 @@ export const Speakers = () => (
                 to working with experts from non-profits and coding alongside \
                 mentors from tech companies!'}
           imagePath={dsg} />
-        <SpeakersSection title={'Lucas Joppa'}
+        <SpeakersSection title={'Stephen Lee'}
           text={'The core principle behind hacking for social good is collaboration, \
                 and HackDuke\'s project tracks provide an avenue to collaborate with each \
                 other, with initiatives at their university and with community organizations.'}
           imagePath={dsg} />
-        <SpeakersSection title={'GIVING BACK.'}
-          text={'HackDuke encourages students to venture beyond the classroom. \
-                Learn how your skills can be used to make a difference in other \
-                people\'s lives. Tracks enable members to collaborate while providing \
-                an alleyway to partnership with peers, local organizations, nonprofits \
-                and universities to continue working towards the cause.'}
+        <SpeakersSection title={'Stay Tuned'}
+          beforeText={'We will be adding speakers as we get closer to the event. Want to be a speaker at this event? '}
+          linkText={'Let us know!'}
+          link={'https://hackduke.typeform.com/to/Q8EGmW?route_receive_mentor=xxxxx'}
           imagePath={dsg} />
       </div>
     </div>
