@@ -17,7 +17,7 @@ export const Social = () => (
             <i className={'fa fa-instagram'}></i>
           </a>
         </div>
-        <div className={classes.copyright}>Copyright © 2016 Duke Blueprint (adapted from HackDuke with permission). </div>
+        <div className={classes.copyright}>Content Copyright © 2016 Duke Blueprint. <br /> Layout Copyright © 2016 HackDuke adapted with permission. </div>
       </div>
     </div>
   </div>
