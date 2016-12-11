@@ -6,20 +6,21 @@ export const About = () => (
   <div>
     <div className={classes.about} >
       <div className={'container text-center'}>
-        <h1 className={classes.header}> BLUEPRINT:<br />PEOPLE + WILDLIFE<br />IS ABOUT</h1>
-        <AboutSection title={'“BLUEPRINT” PLANS → IMPACTFUL SOLUTIONS.'}
-          text={'At this event we want students to come up with Blueprints for  \
-          projects/technology/apps that are so crazy that they might just work. \
-          On-campus student organizations with the skills to make the ideas a reality \
-          will then develop and deploy them under the mentorship of leading experts.'} />
-        <AboutSection title={'#TECH4GOOD.'}
-          text={'Mainstream technologies have widely dismissed conservation as a \
-          viable area of development due to the lack of money in the area. \
-          As college students, we can fill this void and create impactful tech for good.'} />
+        <h1 className={classes.header}> BLUEPRINT IS ABOUT...</h1>
+        <AboutSection title={'IDEATING REVOLUTIONARY SOLUTIONS.'}
+          text={'This event brings students and experts together to pioneer Blueprints for  \
+          projects/technologies/apps so crazy they just might work. \
+          Student organizations will develop and deploy the strongest Blueprints under the mentorship \
+          of leading experts.'} />
         <AboutSection title={'PEOPLE+WILDLIFE.'}
-          text={'Conservation is more than saving cute wildlife; it impacts people \
-          more than almost anything else, as a precursor to food and water security, \
-          disease control and overall happiness.'} />
+          text={'Conservation is more than saving cute wildlife; it also impacts us. Conservation is crucial for our \
+          food and water security, disease control, and overall happiness.'} />
+        <AboutSection title={'TECH FOR GOOD.'}
+          text={'The addition of technology to conservation inspires a niche \
+          that has been traditionally neglected. As college students, we can fill \
+          this void and create impactful tech for good.'} />
+        <AboutSection title={'#PAW2017'}
+          text={'Forging connections. Between Universities. Between Industries. Between Species. '} />
       </div>
     </div>
   </div>

@@ -7,7 +7,7 @@ export const Social = () => (
       <div className={classes.contact}>
         <div className={classes.contactContainer}>
 
-          <a className={classes.footerIcon} href={'mailto:hinfo@dukeblueprint.com'}>
+          <a className={classes.footerIcon} href={'mailto:info@dukeblueprint.com'}>
             <i className={'fa fa-envelope'}></i>
           </a>
           <a className={classes.footerIcon} href={'https://www.facebook.com/DukeConservationTech'}>

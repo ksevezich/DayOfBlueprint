@@ -8,9 +8,6 @@ export const HeroPage = () => (
         <img src='blueprint-logo.png' alt='Blueprint Logo' />
         <h6>January 27-28, 2017</h6>
         <div className={classes.buttonDiv}>
-          <a className={classes.applyLink} eventKey={1} href={'http://my.dukeblueprint.org/login'}>
-            <button className={classes.loginButton}> Login </button>
-          </a>
           <a className={classes.applyLink}
             href={'https://dukeblueprint.typeform.com/to/fhXF3I?route_receive_participant=xxxxx'}>
             <button className={classes.homeButton}> Apply Now </button>

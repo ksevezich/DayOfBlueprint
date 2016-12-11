@@ -8,10 +8,8 @@ export const TracksBox = (props) => (
     </div>
     <div className={classes.paragraph}>
       <p>{props.text} <br /> <br />
-        {'This topic sponsored by:'}
-        <img className={classes.sponsorImage} src={props.sponsorImagePath} />
         <a href={props.link} className={classes.link}>
-          <button className={classes.moreButton}> Learn More </button>
+          <button className={classes.moreButton}> Learn More... Coming Soon </button>
         </a> </p>
       <div />
     </div>
@@ -26,3 +24,5 @@ TracksBox.propTypes = {
 }
 
 export default TracksBox
+/*        {'This topic sponsored by:'}
+        <img className={classes.sponsorImage} src={props.sponsorImagePath} /> */

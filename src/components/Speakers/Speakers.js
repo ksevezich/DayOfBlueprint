@@ -1,7 +1,9 @@
 import React from 'react'
 import classes from './Speakers.scss'
 import SpeakersSection from 'components/SpeakersSection'
-import dsg from 'static/sponsors/dsg.png'
+import alex from 'static/Alex.png'
+import stephen from 'static/Stephen.png'
+import logo from 'static/blueprint-logo.png'
 
 export const Speakers = () => (
   <div>
@@ -9,22 +11,27 @@ export const Speakers = () => (
       <div className={'container text-center'}>
         <h1 className={classes.header}> Speakers </h1>
         <SpeakersSection title={'Alex Deghan'}
-          text={'HackDuke is not just about building meaningful projects. \
-                It\'s also an open forum to discuss, share and bring to life ideas \
-                that aim to make a positive impact on social issues. Look forward \
-                to working with experts from non-profits and coding alongside \
-                mentors from tech companies!'}
-          imagePath={dsg} />
+          text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+          Suspendisse eu nisl sed velit convallis scelerisque eget sed nunc. \
+          Donec ut turpis accumsan, lobortis turpis eu, tristique ante. \
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
+          ridiculus mus. Nullam fermentum nisl est, id interdum nibh semper et. \
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
+          imagePath={alex} />
         <SpeakersSection title={'Stephen Lee'}
-          text={'The core principle behind hacking for social good is collaboration, \
-                and HackDuke\'s project tracks provide an avenue to collaborate with each \
-                other, with initiatives at their university and with community organizations.'}
-          imagePath={dsg} />
+          text={'Dr. Stephen T. Lee is the Chief Scientist (ST) at the U.S. \
+          Army Research Office (ARO). He is interested in how technology can be \
+          used to combat illegal poaching and the wildlife trade in Southern Africa.\
+          "Dr. Lee makes the case that reducing the illegal wildlife trade and poaching in \
+          Africa is in the best interest of the international community regarding safety, \
+          security, conservation and goodwill. Further, that science and technology have \
+          pivotal roles to play via next generation tools and capabilities."'}
+          imagePath={stephen} />
         <SpeakersSection title={'Stay Tuned'}
           beforeText={'We will be adding speakers as we get closer to the event. Want to be a speaker at this event? '}
           linkText={'Let us know!'}
-          link={'https://hackduke.typeform.com/to/Q8EGmW?route_receive_mentor=xxxxx'}
-          imagePath={dsg} />
+          link={'mailto:speakers@dukeblueprint.com'}
+          imagePath={logo} />
       </div>
     </div>
   </div>

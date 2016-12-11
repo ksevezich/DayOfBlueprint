@@ -19,16 +19,19 @@
   font-size: 1em;
 }
 
-.link {
-  padding: 0;
+
+.link, .link:hover, .link:visited, .link:link, .link:active {
+  text-decoration: none;
+  color: #195EA7;
+    padding: 0;
   cursor: pointer;
 }
 
 .sectionImage {
   display: block;
   margin: auto;
-  height: 10vh;
-  width: 10vh;
+  height: 25vh;
+  width: auto;
 }
 
 @media (min-width: $tabletBreakpoint) {

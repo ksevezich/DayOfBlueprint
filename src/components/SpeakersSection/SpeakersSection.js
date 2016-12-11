@@ -6,17 +6,17 @@ export const SpeakersSection = (props) => (
 
   <div>
     <Row className={classes.section}>
-      <Col md={3}>
+      <Col md={2}>
         <div>
           <img className={classes.sectionImage} src={props.imagePath} />
         </div>
       </Col>
-      <Col md={3}>
+      <Col md={2}>
         <div className={classes.sectionHeader}>
           {props.title}
         </div>
       </Col>
-      <Col md={6}>
+      <Col md={8}>
         <div className={classes.sectionText}>
           {(props.link) ? (
             generateTextWithMultiLinks(props.beforeText, props.link, props.linkText)
