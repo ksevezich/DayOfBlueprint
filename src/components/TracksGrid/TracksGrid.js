@@ -17,7 +17,7 @@ export const TracksGrid = () => (
                     to remove using current techniques. We need to find new \
                     technology and methods that can prevent the billions of \
                     dollars of damage caused by these species.'}
-              sponsorImage={xlabs} />
+              sponsorImagePath={xlabs} />
           </div>
           <div className={classes.leftTracksBox}>
             <TracksBox track={'ILLEGAL WILDLIFE TRAFFICKING'}
@@ -28,7 +28,7 @@ export const TracksGrid = () => (
                     illegal weapons trade, and illicit drug smuggling. Technologies have the potential to \
                     disrupt this cycle by preventing the kill and capture of animals, tracking the trade, \
                     and stopping the sale.  '}
-              sponsorImage={xlabs} />
+              sponsorImagePath={xlabs} />
           </div>
         </Col>
         <Col sm={6} md={6} className={classes.rightColumn}>
@@ -41,7 +41,7 @@ export const TracksGrid = () => (
                     desperately need technical solutions to stop harmful, and often-deadly \
                     interactions. Simple technology is lacking in areas such as dangerous animal \
                     detection, by-catch prevention, pollution control, and habitat restoration.'}
-              sponsorImage={xlabs} />
+              sponsorImagePath={xlabs} />
           </div>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'CITIZEN SCIENCE AND RESOURCE MANAGEMENT'}
@@ -56,7 +56,7 @@ export const TracksGrid = () => (
                     possible to turn that information into useful data \
                     that can help us preserve our precious resources and way of \
                     life?'}
-              sponsorImage={xlabs} />
+              sponsorImagePath={xlabs} />
           </div>
         </Col>
       </Row>
