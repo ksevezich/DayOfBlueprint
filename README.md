@@ -1,8 +1,9 @@
 # hackduke-website
 
-[![Build Status](https://travis-ci.org/hack-duke/hackduke-code-for-good-website.svg?branch=master)](https://travis-ci.org/hack-duke/hackduke-code-for-good-website)
+<!--- [![Build Status](https://travis-ci.org/hack-duke/hackduke-code-for-good-website.svg?branch=master)](https://travis-ci.org/hack-duke/hackduke-code-for-good-website) -->
 
 > Previous README.md (from React/Redux Starter Kit) can now be found  [here](https://github.com/hack-duke/hackduke-website/blob/master/ReactReadme.md)
+> Previous README.md (from Hackduke) can now be found [here](https://github.com/hack-duke/hackduke-code-for-good-website/blob/master/README.md)
 
 Note: Before submitting code, be sure to run `npm run lint` to check for potential bugs 
 
