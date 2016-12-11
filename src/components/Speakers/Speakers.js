@@ -11,12 +11,16 @@ export const Speakers = () => (
       <div className={'container text-center'}>
         <h1 className={classes.header}> Speakers </h1>
         <SpeakersSection title={'Alex Deghan'}
-          text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-          Suspendisse eu nisl sed velit convallis scelerisque eget sed nunc. \
-          Donec ut turpis accumsan, lobortis turpis eu, tristique ante. \
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
-          ridiculus mus. Nullam fermentum nisl est, id interdum nibh semper et. \
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
+          text={'Alex Dehgan is the founder of ConservationXLabs, a conservation technology \
+          start-up focused on developing “Conservation 3.0.” He is also the former Chief Scientist at \
+          the U.S. Agency for International Development (USAID) and a Rubenstein Fellow at Duke University. \
+          As part of Obama’s promise to restore science and technology at USAID, Alex leveraged or \
+          raised $500 million dollars in less than four years to establish the USAID Development Lab. \
+          He also led efforts to create Afghanistan’s first national park, conducted the first \
+          comprehensive biological surveys of the country in 30 years, helped develop Afghanistan’s \
+          biodiversity conservation laws and policies, and curtailed illegal wildlife trade on US and \
+          ISAF military bases. He was named an “Icon of Science” by Seed Magazine, and received the World \
+          Technology Award for Policy in 2011.'}
           imagePath={alex} />
         <SpeakersSection title={'Stephen Lee'}
           text={'Dr. Stephen T. Lee is the Chief Scientist (ST) at the U.S. \
