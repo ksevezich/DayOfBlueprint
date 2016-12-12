@@ -23,7 +23,7 @@ import pratt from 'static/sponsors/pratt.png'
 // import dps from 'static/sponsors/dps.png'
 import dsg from 'static/sponsors/dsg.png'
 import dtci from 'static/sponsors/nicholas-school-environment.png'
-import nse from 'static/sponsors/nsoe.vertical.pms287.tag_.png'
+import nse from 'static/sponsors/ODARLogo.png'
 import dukeie from 'static/sponsors/DukeIEtemp.png'
 import xlabs from 'static/sponsors/conservationxlabs.png'
 // import acm from 'static/sponsors/acm.jpg'
@@ -35,11 +35,11 @@ class SponsorsPage extends React.Component {
     super()
     this.state = {
       sponsorsUrls: ['https://nicholas.duke.edu/', 'http://www.dukestudentgovernment.com',
-        'http://pratt.duke.edu', 'https://nicholas.duke.edu', 'https://entrepreneurship.duke.edu',
+        'http://pratt.duke.edu', 'http://sites.nicholas.duke.edu/odar/', 'https://entrepreneurship.duke.edu',
         'http://conservationxlabs.com/home'],
       windowWidth: window.innerWidth,
       imageUrls: [dtci, dsg, pratt, nse, dukeie, xlabs],
-      sizes: [3, 3, 3, 2, 2, 2],
+      sizes: [3, 3, 3, 2, 2, 3],
       title: 'SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',

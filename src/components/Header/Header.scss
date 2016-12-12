@@ -21,6 +21,23 @@
   color: #FFFFFF;
 }
 
+.dctImage {
+  display: block;
+  margin: auto;
+  height: 13px;
+  width: auto;
+  cursor: pointer;
+}
+
+.navbarBrand {
+  background: url('static/presentedBy.png') right /contain no-repeat;
+  height: 20px;
+  width: auto;
+  padding: 50px 50px 0 0px;
+}
+
+
+
 .applyButton:hover {
   background-color: darken($applyBlue, 10%);
 }

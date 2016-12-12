@@ -2,6 +2,7 @@ import React from 'react'
 import Scroll from 'react-scroll'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import classes from './Header.scss'
+// import dctLogo from 'static/presentedBy.png'
 
 // <Nav pullRight>
 //   <a className={classes.applyButton} eventKey={1} href={'http://my.hackduke.org/login'}>Login</a>
@@ -38,6 +39,14 @@ class Header extends React.Component {
                 this.scrollToElement('faqScrollPoint')}>FAQS</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('sponsorsScrollPoint')}>SPONSORS</NavItem>
+              <NavItem className={classes.navItem} onClick={() =>
+                this.scrollToElement('#')}></NavItem>
+              <NavItem className={classes.navItem} onClick={() =>
+                this.scrollToElement('#')}></NavItem>
+              <NavItem className={classes.navItem} onClick={() =>
+                this.scrollToElement('#')}></NavItem>
+              <NavItem className={classes.navbarBrand} onClick={() =>
+                this.scrollToElement('#')}></NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

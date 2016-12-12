@@ -15,7 +15,7 @@ class SponsorsPage extends React.Component {
     super()
     this.state = {
       sponsorsUrls: ['http://www.dukeconservationtech.com/', 'https://sites.duke.edu/conservationsociety/',
-        'https://studentaffairs.duke.edu/ucae/programs/dida'],
+        'didacube.co'],
       windowWidth: window.innerWidth,
       imageUrls: [dct, dcs, dida],
       sizes: [3, 2, 2],
