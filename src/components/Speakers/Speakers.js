@@ -3,7 +3,7 @@ import classes from './Speakers.scss'
 import SpeakersSection from 'components/SpeakersSection'
 import alex from 'static/Alex.png'
 import stephen from 'static/Stephen.png'
-import logo from 'static/blueprint-logo.png'
+import logo from 'static/blueprint-logo-basic.png'
 
 export const Speakers = () => (
   <div>
