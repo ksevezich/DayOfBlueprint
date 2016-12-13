@@ -39,14 +39,6 @@ class Header extends React.Component {
                 this.scrollToElement('faqScrollPoint')}>FAQS</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('sponsorsScrollPoint')}>SPONSORS</NavItem>
-              <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('#')}></NavItem>
-              <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('#')}></NavItem>
-              <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('#')}></NavItem>
-              <NavItem className={classes.navbarBrand} onClick={() =>
-                this.scrollToElement('#')}></NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
