@@ -6,6 +6,8 @@ import { Row, Col } from 'react-bootstrap'
 import dcs from 'static/sponsors/DCS.png'
 import dida from 'static/sponsors/dida.png'
 import dct from 'static/DCTlogo.png'
+import deid from 'static/DEIDlogo.png'
+import hackduke from 'static/hackduke-logo-black2.png'
 // import acm from 'static/sponsors/acm.jpg'
 // import consensys from 'static/sponsors/consensys.png'
 
@@ -14,11 +16,11 @@ class SponsorsPage extends React.Component {
   constructor () {
     super()
     this.state = {
-      sponsorsUrls: ['http://www.dukeconservationtech.com/', 'https://sites.duke.edu/conservationsociety/',
-        'didacube.co'],
+      sponsorsUrls: ['http://www.dukeconservationtech.com/', 'https://sites.duke.edu/conservationsociety/', 'https://sites.duke.edu/deid/',
+        'didacube.co', 'landing.hackduke.org'],
       windowWidth: window.innerWidth,
-      imageUrls: [dct, dcs, dida],
-      sizes: [3, 2, 2],
+      imageUrls: [dct, dcs, deid, dida, hackduke],
+      sizes: [3, 2, 2, 2, 2],
       title: 'STUDENT GROUP PARTNERS'
     }
     this.handleResize = this.handleResize.bind(this)
