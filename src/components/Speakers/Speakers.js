@@ -12,7 +12,7 @@ export const Speakers = () => (
     <div className={classes.speakers} >
       <div className={'container text-center'}>
         <h1 className={classes.header}> Speakers </h1>
-        <SpeakersSection title={'Alex Deghan'}
+        <SpeakersSection title={'Alex Dehgan, Conservation X Labs'}
           text={'Alex Dehgan is the founder of ConservationXLabs, a conservation technology \
           start-up focused on developing “Conservation 3.0.” He is also the former Chief Scientist at \
           the U.S. Agency for International Development (USAID) and a Rubenstein Fellow at Duke University. \
@@ -24,7 +24,7 @@ export const Speakers = () => (
           ISAF military bases. He was named an “Icon of Science” by Seed Magazine, and received the World \
           Technology Award for Policy in 2011.'}
           imagePath={alex} />
-        <SpeakersSection title={'Stephen Lee'}
+        <SpeakersSection title={'Stephen Lee, U.S. ARO'}
           text={'Dr. Stephen T. Lee is the Chief Scientist (ST) at the U.S. \
           Army Research Office (ARO). He is interested in how technology can be \
           used to combat illegal poaching and the wildlife trade in Southern Africa.\
@@ -33,7 +33,7 @@ export const Speakers = () => (
           security, conservation and goodwill. Further, that science and technology have \
           pivotal roles to play via next generation tools and capabilities.'}
           imagePath={stephen} />
-        <SpeakersSection title={'Jason Heckathorn'}
+        <SpeakersSection title={'Jason Heckathorn, Forever Oceans'}
           text={'Jason Heckathorn is a high-energy entrepreneur with a track record for success \
           in starting and growing businesses. Jason founded the Lockheed Martin Mobile \
           Fish Pens line of business by reusing defense technologies for sustainable fish \
@@ -47,7 +47,7 @@ export const Speakers = () => (
           of Central America.  Jason holds three Ivy League degrees in engineering and business \
           and served as a mentor for the KAUST (Saudi Arabia University) Entrepreneurship Program.'}
           imagePath={jason} />
-        <SpeakersSection title={'Dan Fay'}
+        <SpeakersSection title={'Dan Fay, Microsoft Research'}
           text={'Daniel Fay is the Director of External Research for Earth, Energy, and Environment \
           engagements for Microsoft Research, where he works with academic research projects focused \
           on utilizing computing technologies to aid in scientific and engineering research. Dan has \

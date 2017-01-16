@@ -8,6 +8,8 @@ import dida from 'static/sponsors/dida.png'
 import dct from 'static/DCTlogo.png'
 import deid from 'static/DEIDlogo.png'
 import hackduke from 'static/hackduke-logo-black2.png'
+import ieee from 'static/IEEE_logo_black.png'
+import robotics from 'static/Duke_Robotics.png'
 // import acm from 'static/sponsors/acm.jpg'
 // import consensys from 'static/sponsors/consensys.png'
 
@@ -17,10 +19,10 @@ class SponsorsPage extends React.Component {
     super()
     this.state = {
       sponsorsUrls: ['http://www.dukeconservationtech.com/', 'https://sites.duke.edu/conservationsociety/', 'https://sites.duke.edu/deid/',
-        'didacube.co', 'landing.hackduke.org'],
+        'didacube.co', 'landing.hackduke.org', 'duke-robotics.com', 'https://sites.duke.edu/ieee/'],
       windowWidth: window.innerWidth,
-      imageUrls: [dct, dcs, deid, dida, hackduke],
-      sizes: [3, 2, 2, 2, 2],
+      imageUrls: [dct, dcs, deid, dida, hackduke, robotics, ieee],
+      sizes: [3, 2, 2, 2, 2, 2, 2],
       title: 'STUDENT GROUP PARTNERS'
     }
     this.handleResize = this.handleResize.bind(this)
