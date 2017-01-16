@@ -5,7 +5,6 @@ import alex from 'static/Alex.png'
 import stephen from 'static/Stephen.png'
 import jason from 'static/Jason.png'
 import dan from 'static/Dan.png'
-import logo from 'static/blueprint-logo-basic.png'
 
 export const Speakers = () => (
   <div>
@@ -58,11 +57,6 @@ export const Speakers = () => (
           Digital Equipment Corporation working on OSF/1 and embedded network devices. Dan is a graduate \
           of Northeastern University in Electrical Engineering.'}
           imagePath={dan} />
-        <SpeakersSection title={'Stay Tuned'}
-          beforeText={'We will be adding speakers as we get closer to the event. Want to be a speaker at this event? '}
-          linkText={'Let us know!'}
-          link={'mailto:speakers@dukeblueprint.com'}
-          imagePath={logo} />
       </div>
     </div>
   </div>
