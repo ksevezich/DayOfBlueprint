@@ -37,7 +37,8 @@ class SponsorsPage extends React.Component {
     super()
     this.state = {
       sponsorsUrls: ['https://nicholas.duke.edu/', 'http://www.dukestudentgovernment.com',
-        'http://pratt.duke.edu', 'http://conservationxlabs.com/home', 'bennettaerospace.com', 'https://entrepreneurship.duke.edu', 'http://sites.nicholas.duke.edu/odar/', 'tlecc.net'],
+        'http://pratt.duke.edu', 'http://conservationxlabs.com/home', 'bennettaerospace.com',
+        'https://entrepreneurship.duke.edu', 'http://sites.nicholas.duke.edu/odar/', 'tlecc.net'],
       windowWidth: window.innerWidth,
       imageUrls: [dtci, dsg, pratt, xlabs, bennett, dukeie, nse, evezich],
       sizes: [3, 3, 3, 3, 2, 3, 2, 1],
