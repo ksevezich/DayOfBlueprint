@@ -11,7 +11,7 @@ export const TracksGrid = () => (
         <Col sm={6} md={6} className={classes.leftColumn}>
           <div className={classes.leftTracksBox}>
             <TracksBox track={'INVASIVE SPECIES'}
-              link={''}
+              link={'https://docs.google.com/document/d/1eUvudpjs1jlnDFvIPZP5-FgzfJzuGdXGg-1Lj8M64Hg/edit?usp=sharing'}
               text={'Introduced species can wreak havoc on vital ecosystems \
                     that we rely on every day. Once established they are hard \
                     to remove using current techniques. We need to find new \
@@ -20,7 +20,7 @@ export const TracksGrid = () => (
           </div>
           <div className={classes.leftTracksBox}>
             <TracksBox track={'ILLEGAL WILDLIFE TRAFFICKING'}
-              link={''}
+              link={'https://docs.google.com/document/d/1I2yjqEXjOhN7qfyvVOsXVmnUGHOD4_1w2vJMsUVyuIo/edit?usp=sharing'}
               text={'The illegal wildlife trade has decimated species such as Rhinos, Elephants, and \
                     the Big Cats. This industry \
                     runs side-by-side with human trafficking, \
@@ -32,7 +32,7 @@ export const TracksGrid = () => (
         <Col sm={6} md={6} className={classes.rightColumn}>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'HARMFUL HUMAN-WILDLIFE INTERACTION'}
-              link={''}
+              link={'https://docs.google.com/document/d/1YO5t8xeNpXkXIxRQzEdRxOogW90kZuiNc79gnV_Kc20/edit?usp=sharing'}
               text={'As habitat encroachment increases, so does the risk of mutually harmful \
                     interaction.  By decreasing these interactions, we can protect vulnerable \
                     animal populations and our communities. Communities all over the world \
@@ -42,7 +42,7 @@ export const TracksGrid = () => (
           </div>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'CITIZEN SCIENCE AND RESOURCE MANAGEMENT'}
-              link={''}
+              link={'https://docs.google.com/document/d/1b_nY1DRtrcroRz8YzoaREfRfRSnHb-KhADQeHtqwwck/edit?usp=sharing'}
               text={'Citizen science enables the democratization of resources, \
                     giving control to the people. \
                     Every person on this planet has interactions with nature, \
