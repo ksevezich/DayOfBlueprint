@@ -30,13 +30,15 @@ class Header extends React.Component {
           <Navbar.Collapse>
             <Nav>
               <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('aboutScrollPoint')}>ABOUT</NavItem>
+                this.scrollToElement('scheduleScrollPoint')}>SCHEDULE</NavItem>
+              <NavItem className={classes.navItem} onClick={() =>
+                this.scrollToElement('contactScrollPoint')}>CONTACT INFO</NavItem>
+              <NavItem className={classes.navItem} onClick={() =>
+                this.scrollToElement('faqScrollPoint')}>MAPS AND CAMPUS INFO</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('tracksScrollPoint')}>TOPICS</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('speakersScrollPoint')}>SPEAKERS</NavItem>
-              <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('faqScrollPoint')}>FAQS</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('sponsorsScrollPoint')}>SPONSORS</NavItem>
             </Nav>
