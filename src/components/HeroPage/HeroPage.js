@@ -12,7 +12,7 @@ export const HeroPage = () => (
             href={'https://dukeblueprint.typeform.com/to/fhXF3I?route_receive_participant=xxxxx'}>
             <button className={classes.homeButton}> Register Now </button>
           </a>
-          <a className={classes.applyLink} 
+          <a className={classes.applyLink}
             href={'http://home.dukeblueprint.com/'}>
             <button className={classes.loginButton}> Speakers Bios and FAQ </button>
           </a>
