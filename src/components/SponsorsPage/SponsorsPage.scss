@@ -7,7 +7,7 @@
 
 .sponsors {
 	height: 100%;
-	padding-bottom: 45px;
+	padding-bottom: 25px;
 	background-size: 100% 100%;
 	background-color: #F0F0F0;
 	background-repeat: no-repeat;
@@ -18,7 +18,7 @@
   color: #555459;
   letter-spacing: 5px;
   font-size: $headerBig;
-  padding: 45px 0 25px 0;
+  padding: 25px 0 15px 0;
   margin: 0;
 }
 
@@ -40,11 +40,11 @@
 }
 
 .section {
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 .logobox {
-	padding: 100px 5vw 0px 5vw;
+	padding: 80px 4vw 0px 4vw;
 	width: 80vw;
 	margin: 0 auto;
 	background-size: 100% 100%;
@@ -54,8 +54,8 @@
 
 .sponsorsText {
 	text-align: center;
-	padding-left: 25vw;
-	padding-right: 25vw;
+	padding-left: 20vw;
+	padding-right: 20vw;
 }
 
 @media (max-width: $tabletBreakpoint) {
@@ -75,7 +75,7 @@
 	}
 
 	.logobox {
-		padding-top: 75px;
+		padding-top: 45px;
 		width: 100%;
 	}
 }

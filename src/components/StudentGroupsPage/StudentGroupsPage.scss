@@ -44,7 +44,7 @@
 }
 
 .logobox {
-	padding: 100px 5vw 0px 5vw;
+	padding: 80px 3vw 0px 3vw;
 	width: 80vw;
 	margin: 0 auto;
 	background-size: 100% 100%;
@@ -54,8 +54,8 @@
 
 .sponsorsText {
 	text-align: center;
-	padding-left: 25vw;
-	padding-right: 25vw;
+	padding-left: 15vw;
+	padding-right: 15vw;
 }
 
 @media (max-width: $tabletBreakpoint) {
@@ -75,7 +75,7 @@
 	}
 
 	.logobox {
-		padding-top: 75px;
+		padding-top: 45px;
 		width: 100%;
 	}
 }

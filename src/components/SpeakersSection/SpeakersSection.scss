@@ -1,13 +1,13 @@
 @import 'src/styles/base';
 
 .section {
-  padding-top: 12px;
+  padding-top: 10px;
 }
 
 .sectionHeader {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: $aboutBlack;
 }
 
@@ -31,7 +31,7 @@
   display: block;
   margin: auto;
   height: auto;
-  width: 14vh;
+  width: 13vh;
 }
 
 @media (min-width: $tabletBreakpoint) {
@@ -50,19 +50,19 @@
 @media (min-width: $desktopBreakpoint) {
 
   .section {
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .sectionHeader {
     text-align: right;
-    padding-right: 8px;
+    padding-right: 5px;
     padding-bottom: 0;
   }
 
   .sectionText {
-    padding-right: 10px;
+    padding-right: 5px;
     text-align: left;
     transform: translate(0, -1px);
   }
