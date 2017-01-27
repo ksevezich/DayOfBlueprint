@@ -6,7 +6,7 @@ export const TracksPage = () => (
   <div>
     <div className={classes.container}>
       <div className={classes.tracks}>
-        <h1 className={classes.tracksHeader}>TOPICS</h1>
+        <h1 className={classes.tracksHeader}>Topics Info</h1>
         <p className={classes.tracksText}>
           Blueprint: People+Wildlife has four topics designed to
           explore the areas of nature and conservation that directly

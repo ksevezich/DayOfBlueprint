@@ -34,11 +34,11 @@ class Header extends React.Component {
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('contactScrollPoint')}>CONTACT INFO</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('faqScrollPoint')}>MAPS AND CAMPUS INFO</NavItem>
-              <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('tracksScrollPoint')}>TOPICS</NavItem>
+                this.scrollToElement('mapsScrollPoint')}>MAPS AND CAMPUS INFO</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('speakersScrollPoint')}>SPEAKERS</NavItem>
+              <NavItem className={classes.navItem} onClick={() =>
+                this.scrollToElement('tracksScrollPoint')}>TOPICS INFO</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('sponsorsScrollPoint')}>SPONSORS</NavItem>
             </Nav>
