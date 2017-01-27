@@ -46,7 +46,7 @@ SpeakersSection.propTypes = {
   linkText: React.PropTypes.string,
   linkText0: React.PropTypes.string,
   link: React.PropTypes.string,
-  link0: React.PropTypes.string,
+  link0: React.PropTypes.string
 }
 
 export default SpeakersSection
