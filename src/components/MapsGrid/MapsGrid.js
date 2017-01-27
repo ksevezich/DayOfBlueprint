@@ -24,17 +24,17 @@ export const MapsGrid = () => (
               credentials to access the eduroam network. All other participants should use the visitor network. \
               Speak to a conference staff member or volunteer if you have any questions.'} />
           </div>
+          <div className={classes.leftTracksBox}>
+            <TracksBox track={'YouTube livestreams'}
+              link={'https://www.youtube.com/watch?v=GEYrdeJXvWE&feature=em-share_video_user'}
+              text={'Miss a talk? Want to see it again? Click here to see our YouTube channel and livestreams.'} />
+          </div>
         </Col>
         <Col sm={6} md={6} className={classes.rightColumn}>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'Team Formation'}
               link={''}
               text={'Click here to take the survey and see where you\'ve been placed.'} />
-          </div>
-          <div className={classes.rightTracksBox}>
-            <TracksBox track={'YouTube livestreams'}
-              link={'https://www.youtube.com/watch?v=GEYrdeJXvWE&feature=em-share_video_user'}
-              text={'Miss a talk? Want to see it again? Click here to see our YouTube channel and livestreams.'} />
           </div>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'Maps and Parking'}
