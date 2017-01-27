@@ -1,7 +1,7 @@
 @import 'src/styles/base';
 
 .section {
-  padding-top: 50px;
+  padding-top: 12px;
 }
 
 .sectionHeader {
@@ -13,7 +13,7 @@
 
 .sectionText {
   text-align: left;
-  padding-top: 10px;
+  padding-top: 4px;
   color: $aboutBlack;
   line-height: 2em;
   font-size: 1em;
@@ -31,14 +31,14 @@
   display: block;
   margin: auto;
   height: auto;
-  width: 15vh;
+  width: 14vh;
 }
 
 @media (min-width: $tabletBreakpoint) {
 
   .sectionHeader {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
   }
 
   .sectionText {
@@ -50,19 +50,19 @@
 @media (min-width: $desktopBreakpoint) {
 
   .section {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   
   .sectionHeader {
     text-align: right;
-    padding-right: 20px;
+    padding-right: 8px;
     padding-bottom: 0;
   }
 
   .sectionText {
-    padding-right: 30px;
+    padding-right: 10px;
     text-align: left;
     transform: translate(0, -1px);
   }

@@ -3,12 +3,12 @@
 
 .heading {
 	background-color: #f0f0f0;
-	border-radius: 5px 5px 0 0;
+	border-radius: 4px 4px 0 0;
 }
 
 .paragraph {
 	background-color: white;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 4px 4px;
 }
 
 .heading > p {
@@ -17,7 +17,7 @@
 	margin: 0 2vw;
 	color: #4A4A4A;
 	text-align: center;
-	padding: 20px 30px;
+	padding: 15px 20px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .paragraph > p{
-	padding: 10px 10px;
+	padding: 8px 8px;
 }
 
 .moreButton {
@@ -48,7 +48,7 @@
 
 .sponsorImage {
   	display: block;
-  	height: 10vh;
+  	height: 8vh;
   	width: auto;
   	margin: 0 0 0 0;
 }

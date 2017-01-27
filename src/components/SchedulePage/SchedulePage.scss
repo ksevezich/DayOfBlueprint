@@ -8,8 +8,8 @@ h1, h2, h3, h4, h5, h6 {
   /*50px is navBar height*/
   margin-top: 50px;
   height: calc(100vh - 50px);
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
   background-image: url('static/calendar.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 img {
   display: block;
   margin: auto;
-  height: 45vh;
+  height: 30vh;
   width: auto;
 }
 
