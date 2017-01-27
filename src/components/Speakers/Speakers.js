@@ -11,26 +11,26 @@ export const Speakers = () => (
     <div className={classes.speakers} >
       <div className={'container text-center'}>
         <h1 className={classes.header}> Speakers </h1>
-        <SpeakersSection titleFirst={'Alex Dehgan, Conservation X Labs, CEO and Founder'}
-          beforeTextFirst={'Alex Dehgan will talk about Invasive Species. Contact him at '}
-          linkFirst={'mailto:alexdehgan@gmail.com'}
-          linkTextFirst={'here'}
-          imagePathFirst={alex}
-          titleSecond={'Stephen Lee, U.S. Army Reserach Office, Chief Scientist'}
-          beforeTextSecond={'Dr. Stephen T. Lee will discuss Wildlife Trafficking. Contact him at '}
-          linkSecond={'mailto:stephen.j.lee28.civ@mail.mil'}
-          linkTextSecond={'here'}
-          imagePathSecond={stephen} />
-        <SpeakersSection titleFirst={'Jason Heckathorn, Forever Oceans, CEO'}
-          beforeTextFirst={'Jason Heckathorn is our Keynote speaker. Contact him at '}
-          linkFirst={'mailto:jason.heckathorn@foreveroceans.com'}
-          linkTextFirst={'here'}
-          imagePathFirst={jason}
-          titleSecond={'Dan Fay, Microsoft Research, Director of External Research for Earth, Energy, and Environment'}
-          beforeTextSecond={'Daniel Fay will discuss Citizen Science. Contact him at '}
-          linkSecond={'mailto:dan.fay@microsoft.com'}
-          linkTextSecond={'here'}
-          imagePathSecond={dan} />
+        <SpeakersSection title={'Alex Dehgan, Conservation X Labs, CEO and Founder'}
+          beforeText={'Alex Dehgan will talk about Invasive Species. Contact him at '}
+          link={'mailto:alexdehgan@gmail.com'}
+          linkText={'here'}
+          imagePath={alex} />
+        <SpeakersSection title={'Stephen Lee, U.S. Army Reserach Office, Chief Scientist'}
+          beforeText={'Dr. Stephen T. Lee will discuss Wildlife Trafficking. Contact him at '}
+          link={'mailto:stephen.j.lee28.civ@mail.mil'}
+          linkText={'here'}
+          imagePath={stephen} />
+        <SpeakersSection title={'Jason Heckathorn, Forever Oceans, CEO'}
+          beforeText={'Jason Heckathorn is our Keynote speaker. Contact him at '}
+          link={'mailto:jason.heckathorn@foreveroceans.com'}
+          linkText={'here'}
+          imagePath={jason} />
+        <SpeakersSection title={'Dan Fay, Microsoft Research, Director of External Research for Earth, Energy, and Environment'}
+          beforeText={'Daniel Fay will discuss Citizen Science. Contact him at '}
+          link={'mailto:dan.fay@microsoft.com'}
+          linkText={'here'}
+          imagePath={dan} />
       </div>
     </div>
   </div>
