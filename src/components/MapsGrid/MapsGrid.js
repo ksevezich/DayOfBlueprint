@@ -43,6 +43,7 @@ export const MapsGrid = () => (
               On Friday, parking validation at the Bryan Center Garage will be available to speakers, mentors, and sponsors at check in. \
               On Saturday, a parking attendant at the Circuit Drive Lot will provide a pass that can be used for exit and \
               re-entry all day. Note: Additional free parking is on Circuit Drive.'} />
+            <iframe src='https://www.google.com/maps/d/embed?mid=1zXQ5o08RzPhicYPohdlEmdSYaX4' width='490' height='368'></iframe>
           </div>
         </Col>
       </Row>
