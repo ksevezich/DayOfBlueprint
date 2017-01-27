@@ -24,11 +24,6 @@ export const MapsGrid = () => (
               credentials to access the eduroam network. All other participants should use the visitor network. \
               Speak to a conference staff member or volunteer if you have any questions.'} />
           </div>
-          <div className={classes.leftTracksBox}>
-            <TracksBox track={'Maps'}
-              link={'https://oit.duke.edu/what-we-do/applications/eduroam'}
-              text={''} />
-          </div>
         </Col>
         <Col sm={6} md={6} className={classes.rightColumn}>
           <div className={classes.rightTracksBox}>
@@ -42,9 +37,12 @@ export const MapsGrid = () => (
               text={'Miss a talk? Want to see it again? Click here to see our YouTube channel and livestreams.'} />
           </div>
           <div className={classes.rightTracksBox}>
-            <TracksBox track={'Parking'}
-              link={''}
-              text={''} />
+            <TracksBox track={'Maps and Parking'}
+              link={'https://drive.google.com/open?id=1zXQ5o08RzPhicYPohdlEmdSYaX4&usp=sharing'}
+              text={'CLick below for the Google Maps showing Penn Pavillion and the Environment Hall. \
+              On Friday, parking validation at the Bryan Center Garage will be available to speakers, mentors, and sponsors at check in. \
+              On Saturday, a parking attendant at the Circuit Drive Lot will provide a pass that can be used for exit and \
+              re-entry all day. Note: Additional free parking is on Circuit Drive.'} />
           </div>
         </Col>
       </Row>
