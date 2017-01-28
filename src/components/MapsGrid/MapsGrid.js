@@ -33,8 +33,8 @@ export const MapsGrid = () => (
         <Col sm={6} md={6} className={classes.rightColumn}>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'Team Formation'}
-              link={'https://dukeblueprint.typeform.com/to/GxLIsI?route_receive_participant=xxxxx'}
-              text={'Click here to take the survey and see where you\'ve been placed.'} />
+              link={'https://docs.google.com/spreadsheets/d/17s0_ZqicRFTPFnj_KXiebtNBSRnFqCuzXl6biLdZpCk/edit?usp=sharing'}
+              text={'Click here to see where you\'ve been placed.'} />
           </div>
           <div className={classes.rightTracksBox}>
             <TracksBox track={'Maps and Parking'}
